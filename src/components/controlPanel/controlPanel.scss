@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+.control-panel {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 40px;
+    button {
+        transition: all .3s;
+        color: $darkblue-color;
+        &:hover {
+            color: $whiteblue-color;
+            opacity: 0.3;
+        }
+    }
+}
+.active {
+    opacity: 0.3;
+}

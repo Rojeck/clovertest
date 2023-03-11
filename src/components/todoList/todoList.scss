@@ -1,0 +1,30 @@
+@import '../../variables.scss';
+.list {
+    transition: all 0.5s;
+    // flex: 0 1 30%;
+    &__header {
+        display: flex;
+        color: white;
+        background-color: $darkblue-color;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    &__name {
+        font-size: 18px;
+    }
+    &__control {
+        button {
+            color: white;
+            transition: .3s;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+
+    }
+    &__items-empty {
+        text-align: center;
+        padding: 50px;
+
+    }
+}

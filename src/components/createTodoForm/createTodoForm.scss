@@ -1,0 +1,37 @@
+@import "../../variables.scss";
+.create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 300px;
+  &__title {
+    font-size: 26px;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  &__error {
+    color: red;
+  }
+  &__input {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 8px;
+  }
+  &__btn {
+    margin-top: 15px;
+    background-color: $darkblue-color;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+    &:hover {
+      background-color: $whiteblue-color;
+    }
+  }
+}

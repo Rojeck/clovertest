@@ -1,0 +1,15 @@
+@import '../../variables.scss';
+
+.error {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+
+    &__message {
+        font-size: 24px;
+        color: $darkblue-color;
+        text-align: center;
+        padding-top: 20px;
+    }
+}

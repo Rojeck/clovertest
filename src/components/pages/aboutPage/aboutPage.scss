@@ -1,0 +1,11 @@
+.about-page {
+  padding-top: 40px;
+  &__title {
+    color: rgb(151, 129, 0);
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  &__list {
+    list-style: square!important;
+  }
+}
